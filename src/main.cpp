@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
 
-    // Fila to open
+    // File to open
     const std::string filename = argv[1];
     
     std::ifstream infile(filename);
